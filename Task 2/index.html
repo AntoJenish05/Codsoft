@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Agro Farming Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="header-content-div">
+            <a href="#home-sec">
+                <img src="farm.jpeg" alt="Company Logo" id="header-img" />
+            </a>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#services" class="nav-link">SERVICES</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home-sec" class="flexible home-sec">
+            <div class="eye-grabber-img">
+                <img src="farm2.jpg" alt="Image of Agriculture Field" />
+            </div>
+            <div class="eye-grabber">
+                <h1>Transforming Agriculture</h1>
+                <h2>Empowering farmers with modern farming techniques</h2>
+                <button class="btn" onclick="window.location.href = '#contact';">Learn More</button>
+            </div>
+        </section>
+        <section id="about" class="sec-padding">
+            <h3 class="section-heading">ABOUT US</h3>
+            <div class="sec-content-div flexible">
+                <p>
+                    We are dedicated to revolutionizing the agricultural sector by introducing cutting-edge technologies and sustainable farming practices. Our mission is to empower farmers with knowledge, tools, and resources to enhance productivity and promote environmental conservation.
+                </p>
+                <img src="farm3.jpeg" alt="A farmer working in the field" />
+            </div>
+        </section>
+        <section id="services" class="sec-padding">
+            <h3 class="section-heading">OUR SERVICES</h3>
+            <div class="sec-content-div flexible">
+                <div class="tile">
+                    <img src="farm4.jpeg" alt="Consulting Services" />
+                    <h4>Consulting</h4>
+                    <p>Expert guidance and advisory services for implementing modern farming techniques.</p>
+                </div>
+                <div class="tile">
+                    <img src="farm5.jpeg" alt="Equipment Sales" />
+                    <h4>Equipment Sales</h4>
+                    <p>High-quality farming equipment and machinery for improved efficiency.</p>
+                </div>
+                <div class="tile">
+                    <img src="farm6.jpg" alt="Training Programs" />
+                    <h4>Training</h4>
+                    <p>Comprehensive training programs to educate farmers on the latest agricultural practices.</p>
+                </div>
+                <div class="tile">
+                    <img src="farm7.jpg" alt="Research & Development" />
+                    <h4>Research & Development</h4>
+                    <p>Investing in research to develop innovative solutions for sustainable farming.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="sec-padding">
+            <h3 class="section-heading">CONTACT US</h3>
+            <div class="sec-content-div flexible">
+                <h6>Get in touch with us to explore collaboration opportunities or learn more about our services:</h6>
+                <form id="form" action="#" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Your Email Address" required />
+                    <input type="submit" class="btn" id="submit" value="Contact Us" />
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Created by <a href="#">Anto Jenish E</a>
+    </footer>
+</body>
+</html>
